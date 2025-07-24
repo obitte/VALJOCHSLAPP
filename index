@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALJOCHSLAPP - Hållbar Last-Mile Leverans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VALJOCHSLAPP</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Start</a></li>
+                <li><a href="#services">Våra Tjänster</a></li>
+                <li><a href="#why">Varför VALJOCHSLAPP?</a></li>
+                <li><a href="#sustainability">Hållbarhet</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#careers">Karriär</a></li>
+                <li><a href="#contact">Kontakta Oss</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Hållbar Last-Mile Leverans för en Grönare Morgondag</h2>
+        <p>100% Elektrisk Fordonsflotta | Professionella Chaufförer | Effektivitet & Hållbarhet</p>
+        <a href="#contact" class="cta-button">Bli Partner</a>
+    </section>
+
+    <section id="services">
+        <h2>Våra Tjänster</h2>
+        <p>Vi erbjuder B2B-leveranser med fokus på små paket, kvällsleveranser och skalbarhet. Våra tjänster inkluderar ruttoptimering, realtidsuppföljning och säker hantering.</p>
+    </section>
+
+    <section id="why">
+        <h2>Varför VALJOCHSLAPP?</h2>
+        <h3>Hållbar Logistik</h3>
+        <p>100% elektrisk fordonsflotta, energieffektivitet och bidrag till kunders hållbarhetsmål.</p>
+        <h3>Våra Chaufförer</h3>
+        <p>Fast anställda, utbildade och motiverade chaufförer för pålitlig service.</p>
+        <h3>Teknologi & Partnerskap</h3>
+        <p>Integration med kundsystem och framtida verktyg för spårning och KPI:er.</p>
+    </section>
+
+    <section id="sustainability">
+        <h2>Hållbarhet</h2>
+        <p>Vi strävar efter att minska CO2-utsläpp och förbättra energieffektivitet. Vi publicerar årligen en hållbarhetsrapport och stödjer FN:s hållbarhetsmål.</p>
+    </section>
+
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>VALJOCHSLAPP grundades med syftet att revolutionera sista-milen-leveranser i Sverige. Vi är på väg att bli ett aktiebolag för att möjliggöra tillväxt och transparens.</p>
+    </section>
+
+    <section id="careers">
+        <h2>Karriär</h2>
+        <p>Vill du köra för VALJOCHSLAPP? Vi erbjuder stabil anställning, moderna elfordon och en trygg arbetsmiljö.</p>
+        <p>Skicka din ansökan via kontaktformuläret nedan.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakta Oss</h2>
+        <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="company">Företag:</label>
+            <input type="text" id="company" name="company">
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Skicka</button>
+        </form>
+        <p>E-post: kontakt@valjochslapp.se | Telefon: +46 70 123 45 67</p>
+        <p>Adress: Stockholm, Sverige</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VALJOCHSLAPP. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
